@@ -1,0 +1,23 @@
+#gender switch statement
+import java.util.Scanner;
+public class gender {
+	public static void main (String[]args) {
+		char gen;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("enter gender(m/f):");
+		gen=sc.next().charAt(0);
+		switch(gen) {
+		case 'm':
+		case 'M':
+			System.out.println("Male");
+			break;
+		case 'f':
+		case 'F':
+			System.out.println("female");
+			break;
+			default:
+				System.out.println("unspecified gender");
+		}
+	}
+
+}
