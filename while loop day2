@@ -1,0 +1,15 @@
+//while loop from 1to n
+import java.util.Scanner;
+public class while1to3 {
+	public static void main(String[]args) {
+		Scanner sc=new Scanner(System.in);
+		int i=1;
+		System.out.println("enter last digit till u want to print:");
+		int n=sc.nextInt();
+		while(i<=n) {
+			System.out.println(i);
+			i++;
+		}
+		
+	}
+}
